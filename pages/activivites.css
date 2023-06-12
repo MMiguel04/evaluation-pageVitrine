@@ -1,0 +1,64 @@
+*{box-sizing: border-box;}
+
+body{
+    margin:0;
+}
+
+header{
+    position:relative;
+    text-align: center;
+    width:100%;
+    background-color: lightgrey;
+
+}
+
+header .logo{
+    width:150px;
+    height: 150px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:white;
+}
+
+section{
+    margin: 10px;
+    padding:20px
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border-radius: 10px;;
+}
+
+.image{
+    width:100%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    background-color:black;
+    color:white;
+}
+
+@media(min-width:600px){
+    
+    .galeries{
+        display: flex;
+    }
+    .text{
+        text-align: center;
+        width:70%;
+        margin:10px;
+    }
+    .container{ 
+        display: flex;
+        width: 25%;
+    }
+}
